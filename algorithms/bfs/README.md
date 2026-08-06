@@ -2,11 +2,11 @@
 
 ## Overview
 
-Q1: What is BFS?
+### Q1: What is BFS?
 
 Ans: Breadth-First Search is a graph traversal algorithm that explores nodes level by level, visiting all neighboring nodes before moving deeper into the graph. It guarantees the shortest path in terms of the number of edges when all edges have equal cost (an unweighted graph).
 
-Explaining with an example:
+### Explaining with an example
 
 Suppose I need to explore a kingdom and find the nearest cities. I begin at the capital and visit every city directly connected to it. After all neighboring cities have been discovered, I then continue exploring from the first city that was discovered, followed by the second, and so on. This creates an outward, level-by-level exploration of the kingdom.
 
@@ -43,7 +43,7 @@ BFS behaves the same way:
 ---
 
 
-## Python Implementation
+## Code Implementations
 
 ```python
 from collections import deque

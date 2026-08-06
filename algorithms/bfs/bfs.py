@@ -19,5 +19,19 @@ def bfs(graph, start):
     return traversal
 
 
+if __name__ == "__main__":
+    graph = {
+        "A": ["B", "C"],
+        "B": ["D", "E"],
+        "C": ["F"],
+        "D": [],
+        "E": [],
+        "F": [],
+    }
+
+    print("BFS traversal:")
+    print(bfs(graph, "A"))
+
+
 
 

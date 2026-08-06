@@ -2,11 +2,11 @@
 
 ## Overview
 
-Q1: What is DFS?
+### Q1: What is DFS?
 
 Ans: Depth-First Search (DFS) is a graph traversal algorithm that explores as far as possible along a path before backtracking. Unlike Breadth-First Search, which explores level by level, DFS follows one branch until there are no more unvisited nodes before returning to explore other branches.
 
-Explaining with an example:
+### Explaining with an example
 
 Suppose I am exploring a kingdom filled with castles connected by roads. Instead of visiting every nearby castle first, I choose one road and continue travelling until I cannot go any further. Only then do I return to the previous castle and explore the next unexplored road. I continue this process until every reachable castle has been visited.
 
@@ -38,7 +38,7 @@ DFS behaves the same way:
 
 ---
 
-## Python Implementation
+## Code Implementations
 
 ```python
 def dfs(graph, node, visited):
