@@ -1,6 +1,8 @@
-# Computer Science Research Portfolio
+# Independent Computer Science Research Portfolio
 
-A portfolio documenting my independent study and research in algorithms, graph theory, and experimental computer science.
+**Research Focus**
+
+Experimental Analysis of Graph Search Algorithms Across Different Graph Structures
 
 ---
 
