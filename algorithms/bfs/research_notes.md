@@ -2,21 +2,21 @@
 
 Questions I came across while studying:
 
-Q: Why doesn't BFS work with weighted edges?
-Q: Could BFS be modified to support weighted graphs?
-Q: What if all edge weights are either 0 or 1?
-Q: Which graph structures maximize BFS memory usage?
-Q: How does queue order affect traversal?
-Q: How does graph density influence performance?
-Q: What metrics should be measured when benchmarking BFS against DFS, Dijkstra, and A*?
-Q: Why does BFS use a queue?
-Q: Why can't BFS solve weighted shortest path problems?
-Q: What happens if we remove the visited set?
-Q: What is the difference between BFS and DFS?
-Q: What is the time complexity?
-Q: Can BFS detect cycles?
-Q: Why does BFS guarantee the shortest path?
-Q: How does BFS work on disconnected graphs?
+- Q: Why doesn't BFS work with weighted edges?
+- Q: Could BFS be modified to support weighted graphs?
+- Q: What if all edge weights are either 0 or 1?
+- Q: Which graph structures maximize BFS memory usage?
+- Q: How does queue order affect traversal?
+- Q: How does graph density influence performance?
+- Q: What metrics should be measured when benchmarking BFS against DFS, Dijkstra, and A*?
+- Q: Why does BFS use a queue?
+- Q: Why can't BFS solve weighted shortest path problems?
+- Q: What happens if we remove the visited set?
+- Q: What is the difference between BFS and DFS?
+- Q: What is the time complexity?
+- Q: Can BFS detect cycles?
+- Q: Why does BFS guarantee the shortest path?
+- Q: How does BFS work on disconnected graphs?
 
 
 
