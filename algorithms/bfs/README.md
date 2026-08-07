@@ -167,7 +167,7 @@ Ans: Because BFS explores nodes level by level, it visits every node that is one
 
 ## Limitations
 
- - BfS does not work on problems that have weighted edges or weighted graphs.
+ - BFS does not work on problems that have weighted edges or weighted graphs.
  - It can use a significant amount of memory on wide graphs.
  - BFS explores every node at the current level before moving deeper, even if the destination has already been discovered on another branch. This can result in unnecessary exploration.
 
