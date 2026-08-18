@@ -78,21 +78,9 @@ Every recursive call is placed onto the program's call stack. When DFS visits a 
 Example:
 
 ```
-dfs(A)
- ↓
-dfs(B)
- ↓
-dfs(C)
- ↓
-dfs(D)
+dfs(A) --> dfs(B) --> dfs(C) --> dfs(D)
 
-D finishes
-↑
-Return to C
-↑
-Return to B
-↑
-Return to A
+D finishes <-- Return to C <-- Return to B <-- Return to A
 ```
 
 The recursion stack remembers **where the algorithm needs to return after finishing the current path**.
@@ -205,13 +193,13 @@ D --- E
 If DFS starts from **A**, it will visit:
 
 
-A → B → C
+A --> B --> C
 
 
 Vertices D and E remain unvisited because they are not connected to A. The outer loop eventually reaches D, notices that it has not been visited, and starts another DFS. The final traversal becomes:
 
 ```text
-A → B → C → D → E
+A --> B --> C --> D --> E
 ```
 
 ### Python Example
