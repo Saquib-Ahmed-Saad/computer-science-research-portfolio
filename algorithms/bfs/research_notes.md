@@ -59,9 +59,9 @@ BFS uses the most memory on **wide graphs** that have many vertices at the same 
 Example:
 
 ```
-		  A
-	  / / | \ \ 
-	 B C D E F G
+		 B-- A -- G
+	         /  | \  \ 
+           C  D E F 
 ```
 
 The queue may contain many nodes simultaneously.
@@ -189,16 +189,16 @@ Example:
 
 Component 1:
 
-A — B — C
+A -- B -- C
 
 
 Component 2:
 
-D — E
+D -- E
 
 Starting BFS from A visits:
 
-A → B → C
+A --> B --> C
 
 Vertices D and E remain unvisited because there is no path connecting them to A. To visit the entire graph, BFS must be run again starting from D (or any other unvisited vertex).
 
