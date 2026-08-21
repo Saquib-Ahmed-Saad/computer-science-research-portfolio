@@ -43,23 +43,22 @@ What metrics should be measured when experimentally comparing Prim's and Kruskal
 
 How do MST algorithms behave when multiple edges have the same weight?
 
-## Common Interview Questions
-Q: What is a Minimum Spanning Tree?
+What is a Minimum Spanning Tree?
 
-Q: What is the difference between Prim's and Kruskal's Algorithms?
+What is the difference between Prim's and Kruskal's Algorithms?
 
-Q: Why does an MST have `V - 1` edges?
+Why does an MST have `V - 1` edges?
 
-Q: Can an MST contain a cycle?
+Can an MST contain a cycle?
 
-Q: Can an MST contain negative edge weights?
+Can an MST contain negative edge weights?
 
-Q: Can a graph have more than one MST?
+Can a graph have more than one MST?
 
-Q: What happens if the graph is disconnected?
+What happens if the graph is disconnected?
 
-Q: What is the time complexity of Prim's Algorithm?
+What is the time complexity of Prim's Algorithm?
 
-Q: What is the time complexity of Kruskal's Algorithm?
+What is the time complexity of Kruskal's Algorithm?
 
-Q: What data structures are commonly used by Prim's and Kruskal's Algorithms?
+What data structures are commonly used by Prim's and Kruskal's Algorithms?
