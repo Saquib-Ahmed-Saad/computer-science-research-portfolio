@@ -1,4 +1,6 @@
-# Minimum Spanning Trees — Research Notes
+# Minimum Spanning Trees - Research Notes
+
+These are future active-recall questions to revisit from memory as the MST ideas become more familiar.
 
 ## Questions Explored
 Why does an MST contain exactly `V - 1` edges?
