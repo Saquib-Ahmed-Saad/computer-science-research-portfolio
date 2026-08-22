@@ -34,11 +34,11 @@ Algorithms currently being studied include:
 - Topological Sorting
 - Dijkstra's Algorithm
 - A* Search
+- Minimum Spanning Trees
+- Union-Find (Disjoint Set Union)
 
 Future work will include:
 
-- Minimum Spanning Trees
-- Union-Find (Disjoint Set Union)
 - Bellman-Ford
 - Floyd-Warshall
 - Network Flow Algorithms
@@ -56,6 +56,8 @@ algorithms/
 	Topological_Sort/
 	Dijkstra/
 	A_Star/
+	Minimum_Spanning_Trees/
+	Union_Find/
 
 foundations/
 	Graph_Theory/
