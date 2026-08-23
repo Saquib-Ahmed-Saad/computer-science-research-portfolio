@@ -751,7 +751,6 @@ If both can navigate the maze intelligently, they may meet much sooner than if o
 ---
 
 ## Questions to Test My Understanding
-Before considering Bidirectional Search complete, I should be able to answer:
 
 ### Conceptual
 
