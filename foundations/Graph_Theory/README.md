@@ -91,7 +91,7 @@ A sequence of connected vertices.
 Example:
 
 ```
-A → B → C → D
+A -> B -> C -> D
 ```
 
 ---
@@ -353,13 +353,13 @@ A directed graph contains edges with directions.
 Example:
 
 ```
-A → B
+A -> B
 ```
 
 does **not** imply
 
 ```
-B → A
+B -> A
 ```
 
 Example:
@@ -379,7 +379,7 @@ DAG stands for:
 Directed:
 
 ```
-A → B
+A -> B
 ```
 
 Acyclic:
@@ -395,11 +395,13 @@ Example:
 ```
 Math
 
-↓
+|
+V
 
 Algorithms
 
-↓
+|
+V
 
 Artificial Intelligence
 ```
@@ -419,11 +421,13 @@ Course prerequisites
 ```
 Calculus I
 
-↓
+|
+V
 
 Calculus II
 
-↓
+|
+V
 
 Differential Equations
 ```
@@ -433,7 +437,8 @@ Software build systems
 ```
 Library
 
-↓
+|
+V
 
 Program
 ```
@@ -443,11 +448,13 @@ Project planning
 ```
 Design
 
-↓
+|
+V
 
 Implementation
 
-↓
+|
+V
 
 Testing
 ```
@@ -463,10 +470,10 @@ Example:
 Dependencies:
 
 ```
-A → B
-A → C
-B → D
-C → D
+A -> B
+A -> C
+B -> D
+C -> D
 ```
 
 Valid orderings include:
@@ -527,15 +534,16 @@ A cycle occurs when you can start at one vertex and eventually return to it.
 Example:
 
 ```
-A → B
-↑   ↓
-D ← C
+A -> B
+^    |
+|    v
+D <- C
 ```
 
 Starting at A:
 
 ```
-A → B → C → D → A
+A -> B -> C -> D -> A
 ```
 
 This forms a cycle.

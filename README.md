@@ -105,7 +105,6 @@ For each topic, I:
 This repository is primarily informed by:
 
 - *Introduction to Algorithms* (CLRS)
-- *The Algorithm Design Manual* - Steven Skiena
 - *Algorithms* - Robert Sedgewick & Kevin Wayne
 - MIT OpenCourseWare (6.006 - Introduction to Algorithms)
 
