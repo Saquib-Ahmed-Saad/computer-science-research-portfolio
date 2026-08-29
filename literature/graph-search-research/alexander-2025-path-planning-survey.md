@@ -158,13 +158,15 @@ then the vertices one step farther away, and so on.
 
 Conceptually:
 
-    Start
-      |
-   ---------
-   |       |
-   A       B
-   |       |
-   C       D
+```text
+Start
+    |
+---------
+|       |
+A       B
+|       |
+C       D
+```
 
 BFS explores:
 
